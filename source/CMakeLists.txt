@@ -9,5 +9,7 @@ add_executable(sum_multiples sum_multiples.cpp)
 
 add_executable(fract fract.cpp)
 
+add_executable(c_volume c_volume.cpp)
+
 # Kommentieren Sie die folgenden Zeilen fuer die Aufgabe `mile_to_kilometer` aus
 #add_executable(mile_to_kilometer mile_to_kilometer.cpp)
