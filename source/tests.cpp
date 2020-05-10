@@ -13,10 +13,10 @@ int gcd(int a, int b){
 
 TEST_CASE("describe_gcd","[gcd]"){
   REQUIRE(gcd(2,4)==2);
-  // REQUIRE(gcd(9,6)==1);
+  REQUIRE(gcd(9,6)==1);
   REQUIRE(gcd(3,7)==1);
   // REQUIRE(gcd(3,3)==20);
-  REQUIRE(gcd(0,0));
+  //REQUIRE(gcd(0,0));
 }  
 int main(int argc, char* argv[])
 {
