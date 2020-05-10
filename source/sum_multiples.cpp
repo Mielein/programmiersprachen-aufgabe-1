@@ -15,10 +15,8 @@ int sum_multiples(){
 }
 
 TEST_CASE("sum is computed","[sum]"){
+ REQUIRE(sum_multiples()==234168);
  REQUIRE(sum_multiples()==6);
- REQUIRE(sum_multiples()==23456);
- REQUIRE(sum_multiples()==4);
- REQUIRE(sum_multiples()==17);
 }
 
 int main(int argc, char* argv[]){
